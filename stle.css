@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+#terminal {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid lime;
+    height: 80vh;
+    overflow-y: auto;
+}
+
+#output {
+    white-space: pre-wrap;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+}
+
+#prompt {
+    margin-right: 5px;
+}
+
+#input {
+    background: none;
+    border: none;
+    color: lime;
+    font-family: monospace;
+    width: 100%;
+    outline: none;
+}
