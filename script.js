@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let response = "";
     
     if (command === "help") {
-      response = "Enabled commands:\n- help – list of commands\n- clear – clear terminal\n- launch – lauch scripts\n- sudo – launch commands as administrator(help sudo for details)\n- info – information about system\n- date – current date\n- exit – exit from terminal";
+      response = "Enabled commands:\n- help – list of commands\n- clear – clear terminal\n- launch base.fpp/base_portable.fpp – lauch scripts\n- sudo – launch commands as administrator(help sudo for details)\n- info – information about system\n- date – current date\n- exit – exit from terminal";
     } else if (command === "clear") {
       output.innerHTML = "";
       return;
